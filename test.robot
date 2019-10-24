@@ -9,8 +9,7 @@ ${SITE}    http://www.cs.kku.ac.th
 Open Welcome Page
 	Open Browser    ${WELCOME URL}    ${BROWSER}
 	Set Selenium Speed    ${DELAY}
-Welcome Page Should Be Open
-	Location Should Be    ${WELCOME URL}
 Input site
 	Input Text    q    ${SITE}
 	Click Button    btnK
+	Close    ${BROWSER}
