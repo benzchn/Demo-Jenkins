@@ -1,7 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
 *** Variables ***
-${SERVER}    localhost:7272
 ${BROWSER}    Chrome
 ${WELCOME URL}    http://www.google.co.th
 ${DELAY}    0
