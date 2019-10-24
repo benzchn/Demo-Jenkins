@@ -12,4 +12,4 @@ Open Welcome Page
 Input site
 	Input Text    q    ${SITE}
 	Click Button    btnK
-	Close    ${BROWSER}
+	Close Browser    ${BROWSER}
